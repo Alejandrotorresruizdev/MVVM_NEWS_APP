@@ -7,13 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cb3d04a-69d9-46ec-a574-9011f996843c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/api/NewsAPI.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/api/RetrofitInstance.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/Article.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/NewsResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/Source.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/util/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/adapters/NewsAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/db/ArticleDAO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/db/ArticleDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/db/Converters.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/api/NewsAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/api/NewsAPI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/Article.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/models/Article.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/NewsResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/models/NewsResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/Source.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/models/Source.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
         <option value="resourceFile" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -63,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.androiddevs.mvvmnewsapp.models" />
       <recent name="com.androiddevs.mvvmnewsapp.ui" />
     </key>
   </component>
@@ -140,14 +144,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1285" y="271" width="418" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1600873543607">
+      <screen x="0" y="0" width="1880" height="1020" />
+    </state>
+    <state x="1285" y="271" width="418" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.1880.1020@0.0.1880.1020" timestamp="1600873543607" />
     <state x="591" y="370" width="927" height="334" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1600857952746">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
     <state x="591" y="370" width="927" height="334" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1880.1020@0.0.1880.1020" timestamp="1600857952746" />
-    <state x="1216" y="270" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1600856173801">
+    <state x="1216" y="270" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1600872858153">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
-    <state x="1216" y="270" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1880.1020@0.0.1880.1020" timestamp="1600856173801" />
+    <state x="1216" y="270" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1880.1020@0.0.1880.1020" timestamp="1600872858153" />
     <state x="728" y="396" width="824" height="479" key="AndroidCreateResourceFileDialog" timestamp="1600857464674">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
