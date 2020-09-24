@@ -10,13 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cb3d04a-69d9-46ec-a574-9011f996843c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/repository/NewsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/repository/NewsRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/adapters/NewsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/adapters/NewsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/models/Article.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/models/Article.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/models/NewsResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/models/NewsResponse.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/NewsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/NewsViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/ArticleFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/ArticleFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/SavedNewsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/SavedNewsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/BreakingNewsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/BreakingNewsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/SearchNewsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/SearchNewsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/util/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/util/Constants.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,10 +148,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1285" y="271" width="418" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1600962640525">
+    <state x="1285" y="271" width="418" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1600966053110">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
-    <state x="1285" y="271" width="418" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.1880.1020@0.0.1880.1020" timestamp="1600962640525" />
+    <state x="1285" y="271" width="418" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.1880.1020@0.0.1880.1020" timestamp="1600966053110" />
     <state x="1238" y="478" width="525" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600960549673">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
@@ -167,29 +168,33 @@
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
     <state x="728" y="396" width="824" height="479" key="AndroidCreateResourceFileDialog/0.0.1880.1020@0.0.1880.1020" timestamp="1600857464674" />
-    <state width="1838" height="268" key="GridCell.Tab.0.bottom" timestamp="1600963426872">
+    <state width="1195" height="216" key="GridCell.Tab.0.bottom" timestamp="1600969407241">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
-    <state width="1838" height="268" key="GridCell.Tab.0.bottom/0.0.1880.1020@0.0.1880.1020" timestamp="1600963426872" />
-    <state width="1838" height="268" key="GridCell.Tab.0.center" timestamp="1600963426871">
+    <state width="1195" height="216" key="GridCell.Tab.0.bottom/0.0.1880.1020@0.0.1880.1020" timestamp="1600969407241" />
+    <state width="1195" height="216" key="GridCell.Tab.0.center" timestamp="1600969407239">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
-    <state width="1838" height="268" key="GridCell.Tab.0.center/0.0.1880.1020@0.0.1880.1020" timestamp="1600963426871" />
-    <state width="1838" height="268" key="GridCell.Tab.0.left" timestamp="1600963426870">
+    <state width="1195" height="216" key="GridCell.Tab.0.center/0.0.1880.1020@0.0.1880.1020" timestamp="1600969407239" />
+    <state width="1195" height="216" key="GridCell.Tab.0.left" timestamp="1600969407237">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
-    <state width="1838" height="268" key="GridCell.Tab.0.left/0.0.1880.1020@0.0.1880.1020" timestamp="1600963426870" />
-    <state width="1838" height="268" key="GridCell.Tab.0.right" timestamp="1600963426872">
+    <state width="1195" height="216" key="GridCell.Tab.0.left/0.0.1880.1020@0.0.1880.1020" timestamp="1600969407237" />
+    <state width="1195" height="216" key="GridCell.Tab.0.right" timestamp="1600969407240">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
-    <state width="1838" height="268" key="GridCell.Tab.0.right/0.0.1880.1020@0.0.1880.1020" timestamp="1600963426872" />
+    <state width="1195" height="216" key="GridCell.Tab.0.right/0.0.1880.1020@0.0.1880.1020" timestamp="1600969407240" />
     <state x="564" y="174" key="SettingsEditor" timestamp="1600858832598">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
     <state x="564" y="174" key="SettingsEditor/0.0.1880.1020@0.0.1880.1020" timestamp="1600858832598" />
-    <state x="719" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1600958717301">
+    <state x="719" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1600967886946">
       <screen x="0" y="0" width="1880" height="1020" />
     </state>
-    <state x="719" y="352" key="com.intellij.ide.util.TipDialog/0.0.1880.1020@0.0.1880.1020" timestamp="1600958717301" />
+    <state x="719" y="352" key="com.intellij.ide.util.TipDialog/0.0.1880.1020@0.0.1880.1020" timestamp="1600967886946" />
+    <state x="826" y="340" width="672" height="678" key="search.everywhere.popup" timestamp="1600968765321">
+      <screen x="0" y="0" width="1880" height="1020" />
+    </state>
+    <state x="826" y="340" width="672" height="678" key="search.everywhere.popup/0.0.1880.1020@0.0.1880.1020" timestamp="1600968765321" />
   </component>
 </project>
