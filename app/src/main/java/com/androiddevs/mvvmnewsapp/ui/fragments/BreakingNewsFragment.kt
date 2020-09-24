@@ -23,6 +23,7 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        //Get view model from activity
         viewModel = (activity as NewsActivity).viewModel
         setupRecyclerView()
 
